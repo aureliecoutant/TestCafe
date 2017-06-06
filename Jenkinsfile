@@ -1,7 +1,7 @@
 node {
-   stage ('Checkout')
+   stage 'Checkout'
       checkout scm
-   stage ('Build')
-      sh npm install
-      sh npm start
+   stage 'Build'
+      sh "npm install"
+      sh "npm start"
 }
