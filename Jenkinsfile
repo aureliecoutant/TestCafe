@@ -5,5 +5,5 @@ node {
       sh "npm install"
       sh "npm install forever"
       sh "npm install forever-monitor"
-      sh "npm forever start server.js"
+      sh "forever start server.js"
 }
